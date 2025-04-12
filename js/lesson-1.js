@@ -28,10 +28,12 @@ if (Number(number) === 10) {
 const min = Math.floor(Math.random() * (59 - 0) + 0);
 let quarter;
 if (min >= 0 && min <= 14) {
-    quarter = 'першу';
+  quarter = 'першу';
 } else if (min >= 15 && min <= 29) {
-    quarter = 'другу';
+  quarter = 'другу';
 } else if (min >= 30 && min <= 44) {
-    quarter = 'третю';
-} else { quarter = 'четверту'; }
-alert(`${min}` входить в ${ quarter } чверть);
+  quarter = 'третю';
+} else {
+  quarter = 'четверту';
+}
+alert(`${min}входить в ${quarter}чверть`);
