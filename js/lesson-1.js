@@ -4,18 +4,15 @@
 // Перевірте, чи дорівнює змінна number числу 10:
 //    Якщо так – виведіть повідомлення 'Вірно' у alert().
 //    Якщо ні – виведіть 'Невірно'.
-
 // Підказка: prompt завжди повертає рядок (String), тому перед перевіркою
 // перетворіть значення на число за допомогою Number().
 
-let number = prompt('Введіть число:');
-console.log(number);
+// let number = prompt('Введіть число');
+// console.log(number);
 
-if (Number(number) === 10) {
-  alert('Вірно');
-} else {
-  alert('Невірно');
-}
+// if (Number(number) === 10) { alert('Вірно'); }
+// else { alert('Невірно') };
+
 // Завдання 2:
 // У змінній min лежить випадкове число від 0 до 59.
 // Визначте, в яку чверть години потрапляє
@@ -25,15 +22,26 @@ if (Number(number) === 10) {
 
 // const min = Math.floor(Math.random() * (59 - 0) + 0);
 
-const min = Math.floor(Math.random() * (59 - 0) + 0);
-let quarter;
-if (min >= 0 && min <= 14) {
-  quarter = 'першу';
-} else if (min >= 15 && min <= 29) {
-  quarter = 'другу';
-} else if (min >= 30 && min <= 44) {
-  quarter = 'третю';
-} else {
-  quarter = 'четверту';
-}
-alert(`${min}входить в ${quarter}чверть`);
+// const min = Math.floor(Math.random() * (59 - 0) + 0);
+
+// let quarter;
+// if (min >= 0 && min <= 14) {
+//   quarter = 'першу';
+// } else if (min >= 15 && min <= 29) {
+//   quarter = 'другу';
+// } else if (min >= 30 && min <= 44) {
+//   quarter = 'третю';
+// } else {
+//   quarter = 'четверту';
+// }
+// alert(`${min}входить в ${quarter}чверть`);
+
+// if (min >= 0 && min <= 14) {
+//   alert(`${min}входить в першу чверть`);
+// } else if (min >= 15 && min <= 29) {
+//   alert(`${min}входить в другу чверть`);
+// } else if (min >= 30 && min <= 44) {
+//   alert(`${min}входить в третю чверть`);
+// } else {
+//   alert(`${min}входить в четверту чверть`);
+// }
